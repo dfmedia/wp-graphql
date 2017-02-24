@@ -1,10 +1,15 @@
 {
-    "require": {
-        "youshido/graphql": "v1.4.2.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "WPGraphQL\\": "includes"
-        }
+  "require": {
+    "webonyx/graphql-php": "^0.9",
+    "ivome/graphql-relay-php": "^0.3.1",
+    "satooshi/php-coveralls": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPGraphQL\\": "src"
     }
+  }
 }
